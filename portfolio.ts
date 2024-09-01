@@ -12,24 +12,24 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Musharraf Riaz",
+  title: "Hi, I'm Musharraf",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with React.js, Next.js and Nest.js. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "Musharraf4",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:musharraf122121@gmail.com",
+  linkedin: "https://www.linkedin.com/in/musharraf-riaz/",
+  github: "https://github.com/Musharraf4",
+  // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -178,7 +178,7 @@ export const feedbacks: FeedbackType[] = [
     name: "Syed Jamal",
     role: "Frontend Developer at Meganos Software",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Musharraf is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
   },
   {
     name: "Wajahat Malek",
@@ -196,18 +196,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Musharraf Riaz",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Musharraf Riaz",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  url: "https://musharraf-riaz.vercel.app/",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Musharraf",
+    "Musharraf Riaz",
+    "@Musharraf4",
+    "musharraf122121",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Musharraf Portfolio ",
+    "Musharraf riaz Portfolio",
   ],
 };

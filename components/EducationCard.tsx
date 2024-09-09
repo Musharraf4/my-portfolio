@@ -19,14 +19,16 @@ const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBulle
                 {grade}
               </Badge>
             )}
-            <p className="description mt-3">{desc}</p>
-            <ul>
-              {descBullets
-                ? descBullets.map(desc => {
-                    return <li key={desc}>{desc}</li>;
-                  })
-                : null}
-            </ul>
+            <p className="description mt-3" style={{ fontWeight: 700 }}>
+              {desc}
+            </p>
+            {descBullets?.map(desc => {
+              return (
+                <span className="description" key={desc}>
+                  {desc},{" "}
+                </span>
+              );
+            })}
           </div>
         </div>
       </CardBody>

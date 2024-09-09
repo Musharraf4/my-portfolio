@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Musharraf",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with React.js, Next.js and Nest.js. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "#",
+  resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EaMe_emSRDxJioAs6WTcd9UB6icbodyfMsxhhWjmy4iHIQ?e=3JaXxu",
 };
 
 export const openSource = {
@@ -36,10 +36,10 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A passionate full stack developer who wants to build impactful, scalable solutions and embrace continuous learning",
   data: [
     {
-      title: "Full Stack Development",
+      title: "My skills",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
@@ -105,47 +105,40 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "University of Punjab (PUCIT)",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    duration: "2017 - 2021",
+    desc: `Relevant course work:`,
+    grade: "2.5 CGPA",
+    descBullets: ['Data structures and algorithms', 'OOP', 'OOAD', 'Databases', ' Web engineering', 'Software engineering', 'Operating system', 'System programming', 'Compiler construction', 'Artificial intelligence'], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
+    role: "Full Stack Developer",
+    company: "Kwanso",
+    companyLogo: "/img/icons/common/kwanso.jpg",
+    date: "Sep 2023 - Present",
     desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
+    role: "Mid React.js Developer",
+    company: "Consultancy Outfit",
+    companyLogo: "/img/icons/common/consultancy-outfit.png",
+    date: "Nov 2021 - Sept 2023",
     desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    descBullets: [
+      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
+    role: "Junior React.js Developer",
+    company: "SA Hamid Pvt. Ltd",
+    companyLogo: "/img/icons/common/sa-hamid.png",
+    date: "Apr 2021 - Nov 2021",
     desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
 

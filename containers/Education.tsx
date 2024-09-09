@@ -17,7 +17,7 @@ const Education = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-white">Education</h4>
+                <b className="display-3 text-white">Education</b>
               </div>
             </div>
             <Row className="row-grid align-items-center">

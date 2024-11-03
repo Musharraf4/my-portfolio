@@ -33,7 +33,7 @@ type SkillType = {
   title: string;
   lottieAnimationFile: string;
   skills: React.ReactNode[] | string[];
-  softwareSkills: SoftwareSkillType[];
+  softwareSkills: {heading:string, skills:SoftwareSkillType[]}[];
 };
 
 export type SkillsSectionType = {

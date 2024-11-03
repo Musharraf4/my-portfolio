@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Musharraf Riaz",
   title: "Hi, I'm Musharraf",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with React.js, Next.js and Nest.js. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I am a dedicated Full Stack Web Developer with hands-on experience building robust and scalable applications using React.js, Next.js, and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
   resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EaMe_emSRDxJioAs6WTcd9UB6icbodyfMsxhhWjmy4iHIQ?e=3JaXxu",
 };
 
@@ -35,54 +35,227 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: "What I do",
-  subTitle: "A passionate full stack developer who wants to build impactful, scalable solutions and embrace continuous learning",
+  title: "My Skills",
+  subTitle: "Experienced in working across multiple technologies, with a solid background in building diverse products and projects.",
   data: [
     {
-      title: "My skills",
+      title: "",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
         emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
       ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
-        {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
-        },
-        {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
-        {
-          skillName: "Github",
-          iconifyTag: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+      softwareSkills: [{
+        heading: 'Languages and Frameworks',
+        skills: [
+          {
+            skillName: "Typescript",
+            iconifyTag: "devicon:typescript",
+          },
+          {
+            skillName: "JavaScript",
+            iconifyTag: "logos:javascript",
+          },
+          {
+            skillName: "React.js",
+            iconifyTag: "vscode-icons:file-type-reactjs",
+          },
+          {
+            skillName: "Next.js",
+            iconifyTag: "vscode-icons:file-type-light-next",
+          },
+          {
+            skillName: "Node.js",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Nest.js",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Express.js",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "HTML5",
+            iconifyTag: "devicon:html5",
+          },
+        ]
+      },
+      {
+        heading: 'Styling and UI Libraries',
+        skills: [
+          {
+            skillName: "CSS",
+            iconifyTag: "skill-icons:css",
+          },
+          {
+            skillName: "SCSS",
+            iconifyTag: "vscode-icons:file-type-scss",
+          },
+          {
+            skillName: "Material UI",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "TailwindCSS",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "Bootstrap",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "ShadCN",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "Ant Design",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "Styled Components",
+            iconifyTag: "akar-icons:github-fill",
+          },
+        ]
+      },
+
+      {
+        heading: 'State Management',
+        skills: [
+          {
+            skillName: "Context API",
+            iconifyTag: "skill-icons:redux",
+          },
+          {
+            skillName: "Redux",
+            iconifyTag: "skill-icons:redux",
+          },
+          {
+            skillName: "Zustand",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "Mobx",
+            iconifyTag: "akar-icons:github-fill",
+          },
+        ]
+      },
+      {
+        heading: 'API Integration',
+        skills: [
+          {
+            skillName: "Restful API",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "GraphQL",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Axios",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "React Query",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Postman",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Swagger",
+            iconifyTag: "logos:docker-icon",
+          },
+        ]
+      },
+
+      {
+        heading: 'Databases',
+        skills: [
+
+          {
+            skillName: "Firebase",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "MySQL",
+            iconifyTag: "akar-icons:github-fill",
+          },
+          {
+            skillName: "PostgresSQL",
+            iconifyTag: "akar-icons:github-fill",
+          },
+
+        ]
+      },
+      {
+        heading: 'Deployments',
+        skills: [
+
+          {
+            skillName: "Vercel",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Heroku",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Netlify",
+            iconifyTag: "logos:docker-icon",
+          },
+        ]
+      },
+      {
+        heading: 'Tools',
+        skills: [
+          {
+            skillName: "BitBucket",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Git",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Jira",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "GitHub",
+            iconifyTag: "logos:docker-icon",
+          },
+
+          {
+            skillName: "NPM",
+            iconifyTag: "logos:docker-icon",
+          },
+
+          {
+            skillName: "Webpack",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Linux",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Docker",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Google Analytics",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Stripe Integration",
+            iconifyTag: "logos:docker-icon",
+          },
+        ]
+      },
       ],
     },
   ],
@@ -120,7 +293,18 @@ export const experience: ExperienceType[] = [
     company: "Kwanso",
     companyLogo: "/img/icons/common/kwanso.jpg",
     date: "Sep 2023 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    desc: "",
+    descBullets: [
+      `Led the development of an Election Dashboard using Next.js and Material UI, integrating real-time 
+statistics and posts from airtable and Google Analytics events, resulting in 32% improved 
+decision-making and campaign strategies.`,
+      `Developed a React.js-based Business Advisory system with GraphQL API, and Stripe 
+integration, delivering analytics and strategy solutions that boosted client retention by 24% 
+and optimized revenue generation.`,
+      `Developed an AI-based Trip Advisory System utilizing OpenAI Assistant API with Next.js, 
+designed to provide personalized trip suggestions, projected to increase user engagement and 
+boost platform usage by 20%.`
+    ],
   },
   {
     role: "Mid React.js Developer",
@@ -129,61 +313,128 @@ export const experience: ExperienceType[] = [
     date: "Nov 2021 - Sept 2023",
     desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
     descBullets: [
-      "Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      `Collaborated on a SAAS product that created a robust platform for key stakeholders in the
+fostering process,significantly improving the business's ability to manage and support its users
+effectively.`,
+      `Provided impactful support on various products for optimization or delivering them in time.`
     ],
   },
   {
-    role: "Junior React.js Developer",
+    role: "React.js Developer",
     company: "SA Hamid Pvt. Ltd",
     companyLogo: "/img/icons/common/sa-hamid.png",
     date: "Apr 2021 - Nov 2021",
     desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    descBullets: [
+      `Developed an interactive React.js dashboard for real-time updates on electrical devices (RLP), 
+enhancing operational efficiency by 35% and enabling better decision-making through data 
+visualization.`,
+      `Implemented a dashboard with React.js for a specific business that shows live trends through a 
+graphical interface,enabling real-time data visualization and informed decision-making, which helped 
+them plan and optimize their strategies more effectively.`,
+      `Worked on different dashboards made with React.js by optimizing them and fixing critical bugs.`
+    ]
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "US Election Dashboard 2024",
+    desc: "A dashboard that empowers voters to identify and avoid viral misinformation threatening democracy by cataloging examples related to the presidential election, utilizing AI for regular updates and thematic organization.",
+    link: "https://misinfodashboard.newslit.org/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Checkology",
+    desc: "A resource for educators to teach news literacy, equipping students with tools to identify credible information and differentiate between fact and falsehood.",
+    link: "https://get.checkology.org/",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Financial Four Square",
+    desc: "The all-in-one collaboration solution for financial and insurance advisors that provides strategicenvironment to plan any business to calculate their loss and profits and get expert opinions.",
+    link: "https://financialfoursquare.com/",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Miles AI",
+    desc: "App that offers customized, AI-powered trip suggestions, utilizing OpenAI Assistant to enhance user travel experiences.",
+  },
+  {
+    name: "Identity Gram",
+    desc: "AI-powered identity verification solution for identity fraud prevention, Know Your Customer compliance, and fast conversions of valuable customers with Identity Gram. Entrust identity verification to us and our identity experts, and focus on what you do best.",
+    link: "https://identitygram.co.uk/",
+  },
+  {
+    name: "RealRepp",
+    desc: "App that streamlines job search automation by connecting users with expert recruiters and identifying relevant opportunities through proprietary search algorithms.",
+    link: "https://www.realrepp.com/",
+  },
+  {
+    name: "Share my Dine",
+    desc: "Platform that connects passionate food hosts with adventurous guests, facilitating memorable dining experiences.",
+  },
+  {
+    name: "Foster App",
+    desc: "An App that addresses the challenges in managing the fostering process by connecting key stakeholders and streamlining communication.",
+    link: "https://www.fosterapp.co.uk/",
+  },
+
+  {
+    name: "Currency Gram",
+    desc: "All in one payment management system with easy, secure, and fast payment processing, along with Stripe payment system",
+  },
+  {
+    name: "Mortgage Basket",
+    desc: "Offer customers excellent fee free mortgage advice. Helps you secure the best mortgage deal whether you're a first time buyer, remortgaging your home, buying to let or moving up the property ladder. Guides throughout the mortgage process – no hidden costs or surprises, just straightforward, honest, mortgage advice",
+    link: "https://mortgagebasket.co.uk/",
+  },
+  {
+    name: "Recipe World",
+    desc: "A MERN Food Recipe App allows users to explore a wide range of recipes, add their own creations, and save favorites for easy access. Built with MongoDB, Express, React, and Node.js, it provides a seamless experience for discovering and managing recipes. Users can view details, upload images, and interact with a growing collection of culinary ideas.",
+  },
+  {
+    name: "Naubahar",
+    desc: "Naubahar Bottling Company Pvt Ltd. leading the charge in the production and distribution of PepsiCo's top-quality products for many years. With a wide variety of products and unparalleled customer service, we've built a network of trusted retailers that spans far and wide. We also welcome opportunities to partner with like-minded individuals and businesses who share our commitment to quality and customer satisfaction to bring the joy of PepsiCo's top-quality beverages to even more customers across the region. As leading in all other avenues, now we're proud to offer convenient Home delivery and e-commerce options for our customers as well. When it comes to PepsiCo products, Naubahar Bottling Company Private Limited. is the name you can trust.",
+    link: "https://nbcpepsi.com/",
+  },
+  {
+    name: "Volka Foods",
+    desc: "Volka Food International (Pvt.) Ltd. is a modern and state-of-the-art company manufacturing quality confectionery, bakery, and pasta products for the past 12 years. The company aims to produce hygienic products of international standards to win millions of hearts.",
+    link: "https://volkafood.com/",
+  },
+  {
+    name: "Fresh n Freeze",
+    desc: "Leading frozen food processing business that delights its customers with healthy and environmentally friendly agricultural products contributing towards the upliftment of the country",
+    link: "https://freshnfreeze.com/",
+  },
+  {
+    name: "Roshan Packages",
+    desc: "A pioneer and forerunner in recognizing the potential in Pakistan’s fruit crops.  Roshan Packages Limited specialises in world-class Co-extruded films, Flexible Packaging, and Corrugated Packaging materials and solutions, all in tune with current industry trends.",
+    link: "https://roshanpackages.com.pk/",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
     name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    role: "CEO at S.A Hamid Pvt Ltd",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Musharraf is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team, alhamdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Musharraf is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
   },
   {
     name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    role: "Client",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "Musharraf has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Musharraf is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Musharraf for any Full Stack, React.js or Node.js projects and I wish him all the best in his future endeavors.",
   },
   {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
+    name: "Ilyas Zaffar",
+    role: "Teammate",
     feedback:
       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+  },
+  {
+    name: "Zain Ali",
+    role: "TeamMate",
+    feedback:"Musharraf is a hardworking developer with a strong command of Full Stack technologies, consistently delivering high-quality, scalable solutions. His dedication and collaborative approach make him a valuable asset to any team",
   },
 ];
 

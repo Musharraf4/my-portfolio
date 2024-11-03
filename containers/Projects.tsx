@@ -3,6 +3,7 @@ import { projects } from "../portfolio";
 import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 import Fade from "react-reveal/Fade";
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -17,14 +18,17 @@ const Projects = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">Projects</h4>
+                <h4 className="display-3 text-info"> Top Projects</h4>
               </div>
             </div>
             <Row className="row-grid align-items-center">
-              {projects.map((data, i) => {
+              {projects.slice(0,4).map((data, i) => {
                 return <ProjectsCard key={i} {...data} />;
               })}
             </Row>
+            <div className="text-center mt-5">
+              <Link href={"/all-projects"} className="btn btn-outline-primary">View All</Link>
+            </div>
           </Container>
         </section>
       </Fade>

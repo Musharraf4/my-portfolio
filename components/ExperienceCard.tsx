@@ -5,7 +5,7 @@ import { ExperienceType } from "../types/sections";
 
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
-    <Col lg="6">
+    <Col lg="12">
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
         <CardBody className="">
           <img
@@ -32,7 +32,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
           </CardSubtitle>
           <CardSubtitle>{date}</CardSubtitle>
           <CardText tag="div" className="description my-3 text-left">
-            {desc}
+            <h6> {desc}</h6>
             <ul>
               {descBullets
                 ? descBullets.map(desc => {

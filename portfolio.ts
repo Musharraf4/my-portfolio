@@ -312,7 +312,7 @@ boost platform usage by 20%.`
     company: "Consultancy Outfit",
     companyLogo: "/img/icons/common/consultancy-outfit.png",
     date: "Nov 2021 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    desc: "",
     descBullets: [
       `Collaborated on a SAAS product that created a robust platform for key stakeholders in the
 fostering process,significantly improving the business's ability to manage and support its users
@@ -325,7 +325,7 @@ effectively.`,
     company: "SA Hamid Pvt. Ltd",
     companyLogo: "/img/icons/common/sa-hamid.png",
     date: "Apr 2021 - Nov 2021",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    desc: "",
     descBullets: [
       `Developed an interactive React.js dashboard for real-time updates on electrical devices (RLP), 
 enhancing operational efficiency by 35% and enabling better decision-making through data 

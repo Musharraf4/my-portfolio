@@ -36,7 +36,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
             <ul>
               {descBullets
                 ? descBullets.map(desc => {
-                    return <li key={desc}>{desc}</li>;
+                    return <li key={desc}><h6>{desc}</h6></li>;
                   })
                 : null}
             </ul>

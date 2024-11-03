@@ -48,7 +48,7 @@ const Greetings = () => {
                     </div>
                   )}
                 </Col>
-                <Col lg="6">
+                <Col lg="6" className="d-lg-block d-none">
                   <GreetingLottie animationPath="/lottie/coding.json" />
                 </Col>
               </Row>

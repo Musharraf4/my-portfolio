@@ -21,11 +21,11 @@ const Skills = () => {
                     return (
                       <Fragment key={heading}>
                         <h5 className="text-info">{heading}</h5>
-                        <div className="d-flex gap-2 my-3 gap-3">
+                        <div className="d-flex flex-wrap my-3 gap-3">
                           {skills.map(({ skillName, iconifyTag }) => (
                             <div className="shadow-sm rounded-pill p-2" key={skillName}>
                               {/* <Icon icon={iconifyTag} data-inline="false"></Icon> */}
-                              <span>{skillName}</span>
+                              <span className="text-nowrap">{skillName}</span>
                               {/* <UncontrolledTooltip delay={0} placement="bottom" target={skillName}>
                                   {skillName}
                                   </UncontrolledTooltip> */}

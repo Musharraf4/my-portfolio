@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Musharraf Riaz",
   title: "Hi, I'm Musharraf",
   description:
-    "I am a dedicated Full Stack Web Developer with hands-on experience building robust and scalable applications using React.js, Next.js, and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
+    "I am a dedicated Full Stack Web Developer with over 3 years of experience in building robust and scalable applications using React.js, Next.js, and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
   resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EWn9iOmLH61Ihz79Dn3yI90BfAdExDmSm5v_8vacHDYjDQ?e=ryNMib",
 };
 
@@ -355,6 +355,11 @@ export const projects: ProjectType[] = [
     link: "https://financialfoursquare.com/",
   },
   {
+    name: "RealRepp",
+    desc: "App that streamlines job search automation by connecting users with expert recruiters and identifying relevant opportunities through proprietary search algorithms.",
+    link: "https://www.realrepp.com/",
+  },
+  {
     name: "Miles AI",
     desc: "App that offers customized, AI-powered trip suggestions, utilizing OpenAI Assistant to enhance user travel experiences.",
   },
@@ -362,11 +367,6 @@ export const projects: ProjectType[] = [
     name: "Identity Gram",
     desc: "AI-powered identity verification solution for identity fraud prevention, Know Your Customer compliance, and fast conversions of valuable customers with Identity Gram. Entrust identity verification to us and our identity experts, and focus on what you do best.",
     link: "https://identitygram.co.uk/",
-  },
-  {
-    name: "RealRepp",
-    desc: "App that streamlines job search automation by connecting users with expert recruiters and identifying relevant opportunities through proprietary search algorithms.",
-    link: "https://www.realrepp.com/",
   },
   {
     name: "Share my Dine",
@@ -435,7 +435,7 @@ export const feedbacks: FeedbackType[] = [
   {
     name: "Zain Ali",
     role: "TeamMate",
-    feedback:"Musharraf is a hardworking developer with a strong command of Full Stack technologies, consistently delivering high-quality, scalable solutions. His dedication and collaborative approach make him a valuable asset to any team",
+    feedback: "Musharraf is a hardworking developer with a strong command of Full Stack technologies, consistently delivering high-quality, scalable solutions. His dedication and collaborative approach make him a valuable asset to any team",
   },
 ];
 

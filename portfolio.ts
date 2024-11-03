@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Musharraf",
   description:
     "I am a dedicated Full Stack Web Developer with hands-on experience building robust and scalable applications using React.js, Next.js, and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
-  resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EaMe_emSRDxJioAs6WTcd9UB6icbodyfMsxhhWjmy4iHIQ?e=3JaXxu",
+  resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EWn9iOmLH61Ihz79Dn3yI90BfAdExDmSm5v_8vacHDYjDQ?e=ryNMib",
 };
 
 export const openSource = {
@@ -29,6 +29,7 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:musharraf122121@gmail.com",
   linkedin: "https://www.linkedin.com/in/musharraf-riaz/",
   github: "https://github.com/Musharraf4",
+  phone: "tel:+923230058879",
   // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',

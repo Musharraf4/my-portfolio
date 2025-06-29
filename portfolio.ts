@@ -444,7 +444,7 @@ export const seoData: SEODataType = {
   title: "Musharraf Riaz",
   description: greetings.description,
   author: "Musharraf Riaz",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  image: "https://avatars.githubusercontent.com/u/80637323?v=4",
   url: "https://musharraf-riaz.vercel.app/",
   keywords: [
     "Musharraf",

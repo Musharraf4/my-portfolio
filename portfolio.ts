@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Musharraf Riaz",
   title: "Hi, I'm Musharraf",
   description:
-    "I am a dedicated Full Stack Web Developer with over 3 years of experience in building robust and scalable applications using React.js, Next.js, and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
-  resumeLink: "https://1drv.ms/b/c/d5e5cbd6b1cf6e73/EWn9iOmLH61Ihz79Dn3yI90BfAdExDmSm5v_8vacHDYjDQ?e=ryNMib",
+    "I am a dedicated Full Stack Web Developer with over 4 years of experience in building robust and scalable applications using React.js, Next.js, Express.js and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
+  resumeLink: "https://drive.google.com/file/d/1ST9_3ClKCEDK_TIVCa3H2OC0Asa-HKm4/view?usp=drive_link",
 };
 
 export const openSource = {
@@ -189,6 +189,10 @@ export const skillsSection: SkillsSectionType = {
             skillName: "PostgresSQL",
             iconifyTag: "akar-icons:github-fill",
           },
+          {
+            skillName: "MongoDB",
+            iconifyTag: "akar-icons:github-fill",
+          },
 
         ]
       },
@@ -206,6 +210,10 @@ export const skillsSection: SkillsSectionType = {
           },
           {
             skillName: "Netlify",
+            iconifyTag: "logos:docker-icon",
+          },
+          {
+            skillName: "Amazon S3",
             iconifyTag: "logos:docker-icon",
           },
         ]
@@ -236,7 +244,7 @@ export const skillsSection: SkillsSectionType = {
           },
 
           {
-            skillName: "Webpack",
+            skillName: "Webpack/TurboPack",
             iconifyTag: "logos:docker-icon",
           },
           {
@@ -291,6 +299,24 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: "Full Stack Developer",
+    company: "Kodesinc",
+    companyLogo: "/img/icons/common/kodesinc.png",
+    date: "Jan 2025 - Present",
+    desc: "",
+    descBullets: [
+      `Led the development of an Election Dashboard using Next.js and Material UI, integrating real-time 
+statistics and posts from airtable and Google Analytics events, resulting in 32% improved 
+decision-making and campaign strategies.`,
+      `Developed a React.js-based Business Advisory system with GraphQL API, and Stripe 
+integration, delivering analytics and strategy solutions that boosted client retention by 24% 
+and optimized revenue generation.`,
+      `Developed an AI-based Trip Advisory System utilizing OpenAI Assistant API with Next.js, 
+designed to provide personalized trip suggestions, projected to increase user engagement and 
+boost platform usage by 20%.`
+    ],
+  },
+  {
+    role: "Full Stack Developer",
     company: "Kwanso",
     companyLogo: "/img/icons/common/kwanso.jpg",
     date: "Sep 2023 - Present",
@@ -343,6 +369,12 @@ export const projects: ProjectType[] = [
     name: "US Election Dashboard 2024",
     desc: "A dashboard that empowers voters to identify and avoid viral misinformation threatening democracy by cataloging examples related to the presidential election, utilizing AI for regular updates and thematic organization.",
     link: "https://misinfodashboard.newslit.org/",
+    demo: "https://vimeo.com/1097286746"
+  },
+  {
+    name: "Zaragoza Restaurant",
+    desc: "A modern restaurant website built with React and TypeScript, offering a variety of delicious Italian fast foods such as pizzas, pastas, and paninis. The site is fully responsive and designed with Material UI, ensuring a seamless experience across all devices. Customers can easily browse the menu, explore mouthwatering dishes, and place orders online with an intuitive, visually appealing interface.",
+    demo: "https://vimeo.com/1097287909",
   },
   {
     name: "Checkology",
@@ -353,6 +385,7 @@ export const projects: ProjectType[] = [
     name: "Financial Four Square",
     desc: "The all-in-one collaboration solution for financial and insurance advisors that provides strategicenvironment to plan any business to calculate their loss and profits and get expert opinions.",
     link: "https://financialfoursquare.com/",
+    demo: "https://vimeo.com/1097287858",
   },
   {
     name: "RealRepp",
@@ -362,6 +395,7 @@ export const projects: ProjectType[] = [
   {
     name: "Miles AI",
     desc: "App that offers customized, AI-powered trip suggestions, utilizing OpenAI Assistant to enhance user travel experiences.",
+    demo: "https://vimeo.com/1097287831",
   },
   {
     name: "Identity Gram",

@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { ProjectType } from "../types/sections";
 
-const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link, demo }: ProjectType) => {
   return (
     <Col lg="12">
       <Card className="shadow-lg--hover shadow mt-4">
@@ -26,21 +26,38 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   </span>
                 </Button>
               ) : null}
-              {link ? (
-                <Button
-                  className="btn-icon"
-                  color="success"
-                  href={link}
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Twitter"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-arrow-right mr-2" />
-                  </span>
-                  <span className="nav-link-inner--text ml-1">Visit</span>
-                </Button>
-              ) : null}
+              <div className="flex gap-2">
+                {link ? (
+                  <Button
+                    className="btn-icon"
+                    color="success"
+                    href={link}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter"
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-arrow-right mr-2" />
+                    </span>
+                    <span className="nav-link-inner--text ml-1">Visit</span>
+                  </Button>
+                ) : null}
+                {demo ? (
+                  <Button
+                    className="btn-icon"
+                    color="success"
+                    href={demo}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter"
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-arrow-right mr-2" />
+                    </span>
+                    <span className="nav-link-inner--text ml-1">Demo Video</span>
+                  </Button>
+                ) : null}
+              </div>
             </div>
           </div>
         </CardBody>

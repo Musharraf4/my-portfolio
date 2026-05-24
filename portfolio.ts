@@ -371,22 +371,28 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+
   {
-    role: "Full Stack Developer",
-    company: "Kodesinc",
-    companyLogo: "/img/icons/common/kodesinc.png",
-    date: "Jan 2025 - Present",
+    role: "Lead Software Engineer",
+    company: "Glowfish Product Studio",
+    companyLogo: "/img/icons/common/glowfish.jpg",
+    date: "Jan 2026 - Present",
     desc: "",
     descBullets: [
-      `Led the development of an Election Dashboard using Next.js and Material UI, integrating real-time 
-statistics and posts from airtable and Google Analytics events, resulting in 32% improved 
-decision-making and campaign strategies.`,
-      `Developed a React.js-based Business Advisory system with GraphQL API, and Stripe 
-integration, delivering analytics and strategy solutions that boosted client retention by 24% 
-and optimized revenue generation.`,
-      `Developed an AI-based Trip Advisory System utilizing OpenAI Assistant API with Next.js, 
-designed to provide personalized trip suggestions, projected to increase user engagement and 
-boost platform usage by 20%.`
+      `Worked on a home services marketplace product, connecting users with trusted providers for services like cleaning, maintenance, and moving. Built scalable frontend features using React.js and Next.js, enabling seamless service discovery and booking experiences.`,
+      `Implemented role-based functionalities, API integrations, and contributed to CI/CD pipelines to improve deployment efficiency and code quality. Also demonstrated leadership by owning key modules, participating in code reviews, and mentoring junior developers.`,
+    ],
+  },
+  {
+    role: "Senior Frontend Developer",
+    company: "Grayphite",
+    companyLogo: "/img/icons/common/grayphite.jpg",
+    date: "Jan 2025 – Jan 2026",
+    desc: "",
+    descBullets: [
+      `Contributed to Lenz, a SaaS web application built with Next.js, designed to give small businesses clear visibility into marketing ROI and unify lead tracking through integrated CRM functionality. Implemented multiple marketing integrations including Google Ads, Local Service Ads, Organic Traffic, and Google My Business, along with phone number and contact synchronization. Additionally, explored and assisted in integrating basic Web3 concepts such as wallet connectivity and understanding smart contract interactions for future scalability.`,
+
+      `Developed AI Lead Nurturing, a sub-platform built with React and Supabase, that automatically fetches leads from parent platforms and sends AI-generated, personalized email sequences using SendGrid. Also gained exposure to Web3-based authentication concepts while working on secure data handling. This automation improved lead engagement and reduced manual outreach efforts, streamlining the client’s marketing workflow.`
     ],
   },
   {

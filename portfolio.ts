@@ -15,8 +15,8 @@ export const greetings: GreetingsType = {
   name: "Musharraf Riaz",
   title: "Hi, I'm Musharraf",
   description:
-    "I am a dedicated Full Stack Web Developer with over 4 years of experience in building robust and scalable applications using React.js, Next.js, Express.js and Nest.js. My passion for technology drives me to continually learn and integrate the latest frameworks and tools into my projects. Known for my strong work ethic, self-motivation, and adaptability, I thrive in collaborative environments and am committed to delivering high-quality solutions. I'm always eager to expand my skill set and contribute effectively to team success.",
-  resumeLink: "https://drive.google.com/file/d/1ST9_3ClKCEDK_TIVCa3H2OC0Asa-HKm4/view?usp=drive_link",
+    "I’m a Full Stack Web Developer with over 5 years of experience crafting high-performance web applications. Deeply rooted in the JavaScript ecosystem, I specialize in building scalable frontend and backend systems using React.js, Next.js, Express.js, and Nest.js. Beyond traditional full-stack development, I focus on integrating AI innovations and automation to build intelligent, future-ready digital products. I am highly adaptable, self-motivated, and thrive in collaborative teams that value clean code and impactful user experiences. Let's build something great together.",
+  // resumeLink: "https://drive.google.com/file/d/1ST9_3ClKCEDK_TIVCa3H2OC0Asa-HKm4/view?usp=drive_link",
 };
 
 export const openSource = {
@@ -60,27 +60,68 @@ export const skillsSection: SkillsSectionType = {
           },
           {
             skillName: "React.js",
-            iconifyTag: "vscode-icons:file-type-reactjs",
+            iconifyTag: "skill-icons:react-dark",
           },
           {
             skillName: "Next.js",
-            iconifyTag: "vscode-icons:file-type-light-next",
+            iconifyTag: "skill-icons:nextjs-dark",
           },
           {
             skillName: "Node.js",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:nodejs-dark",
           },
           {
             skillName: "Nest.js",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:nestjs-dark",
           },
           {
             skillName: "Express.js",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:expressjs-dark",
           },
           {
             skillName: "HTML5",
             iconifyTag: "devicon:html5",
+          },
+          {
+            skillName: "SvelteKit",
+            iconifyTag: "skill-icons:svelte",
+          },
+        ]
+      },
+      {
+        heading: 'Web3 & Blockchain',
+        skills: [
+          {
+            skillName: "Solidity",
+            iconifyTag: "devicon:solidity",
+          },
+          {
+            skillName: "Ethereum",
+            iconifyTag: "logos:ethereum",
+          },
+          {
+            skillName: "Smart Contracts",
+            iconifyTag: "mdi:file-document-edit-outline",
+          },
+          {
+            skillName: "Web3.js",
+            iconifyTag: "simple-icons:web3dotjs",
+          },
+          {
+            skillName: "Ethers.js",
+            iconifyTag: "simple-icons:ethers",
+          },
+          {
+            skillName: "Hardhat",
+            iconifyTag: "devicon:hardhat",
+          },
+          {
+            skillName: "MetaMask",
+            iconifyTag: "logos:metamask-icon",
+          },
+          {
+            skillName: "IPFS",
+            iconifyTag: "skill-icons:ipfs-dark",
           },
         ]
       },
@@ -93,31 +134,31 @@ export const skillsSection: SkillsSectionType = {
           },
           {
             skillName: "SCSS",
-            iconifyTag: "vscode-icons:file-type-scss",
+            iconifyTag: "skill-icons:sass",
           },
           {
             skillName: "Material UI",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:materialui-dark",
           },
           {
             skillName: "TailwindCSS",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:tailwindcss-dark",
           },
           {
             skillName: "Bootstrap",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:bootstrap",
           },
           {
             skillName: "ShadCN",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "simple-icons:shadcnui",
           },
           {
             skillName: "Ant Design",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "simple-icons:antdesign",
           },
           {
             skillName: "Styled Components",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:styledcomponents",
           },
         ]
       },
@@ -127,7 +168,7 @@ export const skillsSection: SkillsSectionType = {
         skills: [
           {
             skillName: "Context API",
-            iconifyTag: "skill-icons:redux",
+            iconifyTag: "skill-icons:react-dark",
           },
           {
             skillName: "Redux",
@@ -135,11 +176,11 @@ export const skillsSection: SkillsSectionType = {
           },
           {
             skillName: "Zustand",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "mdi:state-machine",
           },
           {
             skillName: "Mobx",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "simple-icons:mobx",
           },
         ]
       },
@@ -148,27 +189,27 @@ export const skillsSection: SkillsSectionType = {
         skills: [
           {
             skillName: "Restful API",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "mdi:api",
           },
           {
             skillName: "GraphQL",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:graphql-dark",
           },
           {
             skillName: "Axios",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:axios",
           },
           {
             skillName: "React Query",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:reactquery",
           },
           {
             skillName: "Postman",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:postman",
           },
           {
             skillName: "Swagger",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:swagger",
           },
         ]
       },
@@ -179,19 +220,23 @@ export const skillsSection: SkillsSectionType = {
 
           {
             skillName: "Firebase",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "devicon:firebase",
           },
           {
             skillName: "MySQL",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:mysql-dark",
           },
           {
             skillName: "PostgresSQL",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:postgresql-dark",
           },
           {
             skillName: "MongoDB",
-            iconifyTag: "akar-icons:github-fill",
+            iconifyTag: "skill-icons:mongodb",
+          },
+          {
+            skillName: "Supabase",
+            iconifyTag: "skill-icons:supabase-dark",
           },
 
         ]
@@ -202,19 +247,48 @@ export const skillsSection: SkillsSectionType = {
 
           {
             skillName: "Vercel",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:vercel-dark",
           },
           {
             skillName: "Heroku",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:heroku",
           },
           {
             skillName: "Netlify",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:netlify-dark",
           },
           {
             skillName: "Amazon S3",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:aws-dark",
+          },
+        ]
+      },
+      {
+        heading: 'Artificial Intelligence',
+        skills: [
+          {
+            skillName: "OpenAI API",
+            iconifyTag: "simple-icons:openai",
+          },
+          {
+            skillName: "LLM Integration",
+            iconifyTag: "mdi:brain",
+          },
+          {
+            skillName: "AI Assistants",
+            iconifyTag: "mdi:robot-outline",
+          },
+          {
+            skillName: "Prompt Engineering",
+            iconifyTag: "carbon:prompt-template",
+          },
+          {
+            skillName: "LangChain",
+            iconifyTag: "simple-icons:langchain",
+          },
+          {
+            skillName: "RAG",
+            iconifyTag: "mdi:database-search",
           },
         ]
       },
@@ -223,45 +297,45 @@ export const skillsSection: SkillsSectionType = {
         skills: [
           {
             skillName: "BitBucket",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:bitbucket-dark",
           },
           {
             skillName: "Git",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:git",
           },
           {
             skillName: "Jira",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:jira",
           },
           {
             skillName: "GitHub",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:github-dark",
           },
 
           {
             skillName: "NPM",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:npm-dark",
           },
 
           {
             skillName: "Webpack/TurboPack",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:webpack-dark",
           },
           {
             skillName: "Linux",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:linux-dark",
           },
           {
             skillName: "Docker",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "skill-icons:docker",
           },
           {
             skillName: "Google Analytics",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:googleanalytics",
           },
           {
             skillName: "Stripe Integration",
-            iconifyTag: "logos:docker-icon",
+            iconifyTag: "simple-icons:stripe",
           },
         ]
       },
@@ -366,6 +440,34 @@ them plan and optimize their strategies more effectively.`,
 
 export const projects: ProjectType[] = [
   {
+    name: "ServiceMarket",
+    desc: "An online home services marketplace offering a variety of services like Cleaning, Beauty at Home, Moving and Relocation, Healthcare at Home, Home Maintenance, and many more since 2013. A trusted online platform for booking home services in Dubai, Abu Dhabi, and Sharjah, connecting clients with certified service providers through a network of over 250 reliable partners.",
+    link: "https://servicemarket.com/en/dubai",
+  },
+  {
+    name: "Luckykat",
+    desc: "A motion-first presentation platform that turns static slides into cinematic visual stories. Luckykat reimagines the pitch with premium design themes that are motion-driven experiences designed to evolve your workflow—no design team needed.",
+    link: "https://www.luckykat.app/",
+  },
+  {
+    name: "AI Lead Nurturing",
+    desc: "A modern React application that demonstrates an AI-powered pipeline for identifying, contacting, and evaluating potential companies for outreach and AI-driven call screening.",
+    link: "https://lead-nurturing.netlify.app/login",
+    github: "https://github.com/Musharraf4/ai-lead-nurturing",
+  },
+  {
+    name: "LENZ",
+    desc: "A SaaS web application that gives small businesses clear and reliable visibility into marketing ROI. It unifies comprehensive lead tracking (calls, forms, chats) with CRM functionality to connect marketing efforts directly to revenue—without enterprise-level complexity or cost.",
+    link: "https://lens-frontend-dev-v2.vercel.app/login",
+    github: "https://github.com/Musharraf4/lens-frontend",
+  },
+  {
+    name: "Belay Global",
+    desc: "The Lead Enrichment System (LES) is a comprehensive web application for managing and tracking companies through a structured sales pipeline. Built with React, it serves as a centralized platform for sales teams and analysts to automate outreach processes and make data-driven decisions.",
+    link: "https://app.belayglobal.io/dashboard",
+    github: "https://github.com/Musharraf4/belay-global-lead-enrichment-system",
+  },
+  {
     name: "US Election Dashboard 2024",
     desc: "A dashboard that empowers voters to identify and avoid viral misinformation threatening democracy by cataloging examples related to the presidential election, utilizing AI for regular updates and thematic organization.",
     link: "https://misinfodashboard.newslit.org/",
@@ -396,11 +498,13 @@ export const projects: ProjectType[] = [
     name: "Miles AI",
     desc: "App that offers customized, AI-powered trip suggestions, utilizing OpenAI Assistant to enhance user travel experiences.",
     demo: "https://vimeo.com/1097287831",
+    github: "https://github.com/Musharraf4/AI-trip-advisor",
   },
   {
     name: "Identity Gram",
     desc: "AI-powered identity verification solution for identity fraud prevention, Know Your Customer compliance, and fast conversions of valuable customers with Identity Gram. Entrust identity verification to us and our identity experts, and focus on what you do best.",
     link: "https://identitygram.co.uk/",
+    github: "https://github.com/Musharraf4/identity-gram",
   },
   {
     name: "Share my Dine",
@@ -415,11 +519,13 @@ export const projects: ProjectType[] = [
   {
     name: "Currency Gram",
     desc: "All in one payment management system with easy, secure, and fast payment processing, along with Stripe payment system",
+    github: "https://github.com/Musharraf4/currency-gram",
   },
   {
     name: "Mortgage Basket",
     desc: "Offer customers excellent fee free mortgage advice. Helps you secure the best mortgage deal whether you're a first time buyer, remortgaging your home, buying to let or moving up the property ladder. Guides throughout the mortgage process – no hidden costs or surprises, just straightforward, honest, mortgage advice",
     link: "https://mortgagebasket.co.uk/",
+    github: "https://github.com/Musharraf4/mortgage-basket",
   },
   {
     name: "Recipe World",

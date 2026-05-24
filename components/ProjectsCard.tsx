@@ -12,20 +12,6 @@ const ProjectsCard = ({ name, desc, github, link, demo }: ProjectType) => {
             <div className="pl-4">
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
-              {github ? (
-                <Button
-                  className="btn-icon"
-                  color="github"
-                  href={github}
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Github"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
-                  </span>
-                </Button>
-              ) : null}
               <div className="flex gap-2">
                 {link ? (
                   <Button
@@ -33,8 +19,8 @@ const ProjectsCard = ({ name, desc, github, link, demo }: ProjectType) => {
                     color="success"
                     href={link}
                     target="_blank"
-                    rel="noopener"
-                    aria-label="Twitter"
+                    rel="noopener noreferrer"
+                    aria-label={`Visit ${name}`}
                   >
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
@@ -48,13 +34,24 @@ const ProjectsCard = ({ name, desc, github, link, demo }: ProjectType) => {
                     color="success"
                     href={demo}
                     target="_blank"
-                    rel="noopener"
-                    aria-label="Twitter"
+                    rel="noopener noreferrer"
+                    aria-label={`Demo video for ${name}`}
                   >
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
                     </span>
-                    <span className="nav-link-inner--text ml-1">Demo Video</span>
+                    <span className="nav-link-inner--text ml-1">Demo</span>
+                  </Button>
+                ) : null}
+                {github ? (
+                  <Button
+                    color="github"
+                    href={github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`GitHub repository for ${name}`}
+                  >
+                      <i className="fa fa-github" />
                   </Button>
                 ) : null}
               </div>

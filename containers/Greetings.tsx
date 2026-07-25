@@ -29,7 +29,17 @@ const Greetings = () => {
             <div className="col px-0">
               <Row>
                 <Col lg="6">
-                  <h1 className="display-3 text-white">{greetings.title + " "}</h1>
+                  <div className="d-flex align-items-center mb-2">
+                    <img
+                      src="/img/musharraf.jpg"
+                      alt={greetings.name}
+                      className="rounded-circle shadow-lg mr-3"
+                      width={120}
+                      height={120}
+                      style={{ objectFit: "cover", border: "3px solid rgba(255,255,255,0.85)" }}
+                    />
+                    <h1 className="display-3 text-white mb-0">{greetings.title + " "}</h1>
+                  </div>
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
                   {greetings.resumeLink && (

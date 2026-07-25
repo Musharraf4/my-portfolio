@@ -15,7 +15,10 @@ export const greetings: GreetingsType = {
   name: "Musharraf Riaz",
   title: "Hi, I'm Musharraf",
   description:
-    "I’m a Full Stack Web Developer with over 5 years of experience crafting high-performance web applications. Deeply rooted in the JavaScript ecosystem, I specialize in building scalable frontend and backend systems using React.js, Next.js, Express.js, and Nest.js. Beyond traditional full-stack development, I focus on integrating AI innovations and automation to build intelligent, future-ready digital products. I am highly adaptable, self-motivated, and thrive in collaborative teams that value clean code and impactful user experiences. Let's build something great together.",
+    `I am a Full Stack Web Developer with 5+ years of experience building robust, scalable applications using the MERN stack, Next.js, and Nest.js.
+My expertise lies in bridging the gap between powerful backend architecture and seamless, dynamic user experiences. Driven by a passion for emerging tech, I also specialize in integrating AI capabilities and automation to streamline workflows and build smarter web solutions.
+I thrive in collaborative environments, love solving complex architectural puzzles, and am always eager to deploy high-quality, impactful code.
+`,
   // resumeLink: "https://drive.google.com/file/d/1ST9_3ClKCEDK_TIVCa3H2OC0Asa-HKm4/view?usp=drive_link",
 };
 
@@ -30,6 +33,7 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/musharraf-riaz/",
   github: "https://github.com/Musharraf4",
   phone: "tel:+923230058879",
+  calendly:"https://calendly.com/musharraf-riaz",
   // instagram: "https://www.instagram.com/__hanzla100",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',

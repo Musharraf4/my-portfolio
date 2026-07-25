@@ -75,6 +75,26 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      {socialLinks.calendly && (
+        <Button
+          className="btn-icon btn-white rounded-pill ml-1"
+          color="white"
+          href={socialLinks.calendly}
+          target="_blank"
+          rel="noopener"
+          aria-label="Schedule a meeting on Calendly"
+        >
+          <span className="btn-inner--icon mr-1">
+            <img
+              src="/img/icons/common/calendly.webp"
+              alt="Calendly"
+              width={20}
+              height={20}
+            />
+          </span>
+          <span className="btn-inner--text">Schedule a meeting</span>
+        </Button>
+      )}
       {socialLinks.facebook && (
         <Button
           className="btn-icon-only rounded-circle ml-1"

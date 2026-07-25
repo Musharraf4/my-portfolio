@@ -20,6 +20,7 @@ export type GreetingsType = {
   title: string;
   description?: string;
   resumeLink?: string;
+  calendlyLink?: string;
 };
 
 // * SKILLS SECTION
